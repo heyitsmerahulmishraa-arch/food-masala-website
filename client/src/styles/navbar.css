@@ -1,0 +1,60 @@
+.navbarContainer{
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+}
+
+.navbarSearchContainer{
+    border: 1px solid black;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 40px;
+    padding: 8px 16px;
+}
+.navbarSearchContainer .searchContainer{
+    display: flex;
+    align-items: center;
+}
+.searchContainer .searchIcon{
+    border: 1px solid black;
+    padding: 6px;
+    border-radius: 50%;
+    background-color: aquamarine;
+}
+.searchContainer input{
+    height: 100%;
+    flex: 1;
+    padding: 0 5px;
+}
+
+.navbarButtonsContainer .buttonsContianer{
+    display: flex;
+    gap: 10px;
+}
+
+.button{
+    border: 1px solid black;
+    padding: 8px 16px;
+    border-radius: 32px;
+}
+
+.cartButton{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.cartButton .cartIcon{
+    display: flex;
+    border: 1px solid black;
+    padding: 8px;
+    border-radius: 16px;
+
+}
+
+.loginButton{
+    display: flex;
+    align-items: center;
+}
